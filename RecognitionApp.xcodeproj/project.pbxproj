@@ -46,6 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				490D9A7228F84D4D00E2BA9E /* RecognitionApp */,
+				490D9A8928F9CB0A00E2BA9E /* README.md */,
 				490D9A7128F84D4D00E2BA9E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,10 +66,9 @@
 				490D9A7528F84D4D00E2BA9E /* ContentView.swift */,
 				490D9A8128F84D9F00E2BA9E /* ViewController.swift */,
 				490D9A8328F86D7A00E2BA9E /* Detector.swift */,
-				490D9A8928F9CB0A00E2BA9E /* README.md */,
+				490D9A8528F86FEC00E2BA9E /* YOLOv3Int8LUT.mlmodel */,
 				490D9A8D28F9CD3900E2BA9E /* Resources */,
 				490D9A7928F84D5200E2BA9E /* Preview Content */,
-				490D9A8528F86FEC00E2BA9E /* YOLOv3Int8LUT.mlmodel */,
 			);
 			path = RecognitionApp;
 			sourceTree = "<group>";

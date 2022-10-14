@@ -64,7 +64,7 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
         }
         
         session.beginConfiguration()
-        session.sessionPreset = .hd1280x720 // Model image size is smaller.
+        session.sessionPreset = .vga640x480 // Model image size is smaller.
         
         // Add a video input
         guard session.canAddInput(deviceInput) else {
