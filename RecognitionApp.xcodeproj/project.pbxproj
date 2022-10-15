@@ -12,7 +12,7 @@
 		490D9A7828F84D5200E2BA9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 490D9A7728F84D5200E2BA9E /* Assets.xcassets */; };
 		490D9A7B28F84D5200E2BA9E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 490D9A7A28F84D5200E2BA9E /* Preview Assets.xcassets */; };
 		490D9A8228F84D9F00E2BA9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490D9A8128F84D9F00E2BA9E /* ViewController.swift */; };
-		490D9A8428F86D7A00E2BA9E /* Detector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490D9A8328F86D7A00E2BA9E /* Detector.swift */; };
+		490D9A8428F86D7A00E2BA9E /* RecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490D9A8328F86D7A00E2BA9E /* RecognitionViewController.swift */; };
 		490D9A8628F86FEC00E2BA9E /* YOLOv3Int8LUT.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 490D9A8528F86FEC00E2BA9E /* YOLOv3Int8LUT.mlmodel */; };
 		490D9A8A28F9CB0A00E2BA9E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 490D9A8928F9CB0A00E2BA9E /* README.md */; };
 		490D9A8C28F9CD3200E2BA9E /* img.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 490D9A8B28F9CD3200E2BA9E /* img.jpg */; };
@@ -25,7 +25,7 @@
 		490D9A7728F84D5200E2BA9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		490D9A7A28F84D5200E2BA9E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		490D9A8128F84D9F00E2BA9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		490D9A8328F86D7A00E2BA9E /* Detector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detector.swift; sourceTree = "<group>"; };
+		490D9A8328F86D7A00E2BA9E /* RecognitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionViewController.swift; sourceTree = "<group>"; };
 		490D9A8528F86FEC00E2BA9E /* YOLOv3Int8LUT.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YOLOv3Int8LUT.mlmodel; sourceTree = "<group>"; };
 		490D9A8928F9CB0A00E2BA9E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		490D9A8B28F9CD3200E2BA9E /* img.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img.jpg; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 				490D9A7328F84D4D00E2BA9E /* RecognitionAppApp.swift */,
 				490D9A7528F84D4D00E2BA9E /* ContentView.swift */,
 				490D9A8128F84D9F00E2BA9E /* ViewController.swift */,
-				490D9A8328F86D7A00E2BA9E /* Detector.swift */,
+				490D9A8328F86D7A00E2BA9E /* RecognitionViewController.swift */,
 				490D9A8528F86FEC00E2BA9E /* YOLOv3Int8LUT.mlmodel */,
 				490D9A8D28F9CD3900E2BA9E /* Resources */,
 				490D9A7928F84D5200E2BA9E /* Preview Content */,
@@ -166,7 +166,7 @@
 				490D9A8628F86FEC00E2BA9E /* YOLOv3Int8LUT.mlmodel in Sources */,
 				490D9A7628F84D4D00E2BA9E /* ContentView.swift in Sources */,
 				490D9A7428F84D4D00E2BA9E /* RecognitionAppApp.swift in Sources */,
-				490D9A8428F86D7A00E2BA9E /* Detector.swift in Sources */,
+				490D9A8428F86D7A00E2BA9E /* RecognitionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
